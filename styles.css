@@ -59,8 +59,9 @@ body {
 
 	#viewed {
 		position: absolute;
-		top: 1009px;
-		height: 7%;
+		top: 900px;
+		height: 6.7%;
+		width: 24%;
 	}
 }
 
@@ -118,7 +119,7 @@ main {
 	position: absolute;
 	top: 50px;
 	width: 23%;
-	height: 44%;
+	height: 45%;
 	border-radius: 12px;
 	display: flex;
 	flex-direction: column;
@@ -126,8 +127,17 @@ main {
 	justify-content: center;
 }
 
+.view {
+	opacity: 0;
+}
+
+.view:hover {
+	opacity: 1;
+}
+
 .view-me:hover {
 	background-color: hsl(178, 100%, 50%,0.5);
+	cursor: pointer;
 }
 
 .img1 {
