@@ -18,6 +18,7 @@ body {
 	#cover-wrap {
 		height: 43%;
 		background-color: hsl(216, 50%, 16%);
+		border-radius:12px;
 	}
 
 	#tag {
@@ -67,6 +68,7 @@ body {
 
 main {
 	background-color: hsl(216, 50%, 16%);
+	box-shadow: 2px 2px 27px 19px rgba(13,25,43,0.65);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
