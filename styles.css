@@ -10,15 +10,33 @@ body {
 
 @media only screen and (max-width: 1020px) {
 	#main-cont {
-		height: 40%;
-		width: 30%;
+		height: 20%;
+		width: 28%;
 		background-color: hsl(217, 54%, 11%);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	#cover-wrap {
-		height: 43%;
+		height: 100%;
+		width: 100%;
 		background-color: hsl(216, 50%, 16%);
 		border-radius:12px;
+	}
+
+	#center {
+		display: flex;
+		flex-direction: row;
+		height: 70px;
+		align-items: center;
+	}
+
+	#only {
+		display: flex;
+		align-items: center;
+		margin: 10px 0 10px 0;
 	}
 
 	#tag {
@@ -33,6 +51,7 @@ body {
 
 	.header {
 		font-size: 20px;
+		width: 100%;
 	}
 
 	.full-width {
@@ -47,6 +66,7 @@ body {
 	#fourth {
 		width: 28px;
 		height: 28px;
+		margin-right: 10px;
 	}
 
 	.para4 {
