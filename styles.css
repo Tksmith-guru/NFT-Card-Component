@@ -1,0 +1,206 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: "Outfit", sans-serif;
+	background-color: hsl(217, 54%, 11%);
+}
+
+@media only screen and (max-width: 1020px) {
+	#main-cont {
+		height: 40%;
+		width: 30%;
+		background-color: hsl(217, 54%, 11%);
+	}
+
+	#cover-wrap {
+		height: 43%;
+		background-color: hsl(216, 50%, 16%);
+	}
+
+	#tag {
+		width: 90%;
+		height: 40%;
+		margin-top: 10px;
+	}
+
+	#cover {
+		width: 90%;
+	}
+
+	.header {
+		font-size: 20px;
+	}
+
+	.full-width {
+		width: 100%;
+	}
+
+	#first {
+		font-size: 13px;
+		width: 100%;
+	}
+
+	#fourth {
+		width: 28px;
+		height: 28px;
+	}
+
+	.para4 {
+		width: 100%;
+		font-size: 13px;
+	}
+
+	#only {
+		margin: 10px 0 14px 0;
+	}
+
+	#viewed {
+		position: absolute;
+		top: 1009px;
+		height: 7%;
+	}
+}
+
+main {
+	background-color: hsl(216, 50%, 16%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	width:26%;
+	height: 90%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	height:94%;
+}
+
+.sub-cover {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 100%;
+}
+
+.row-align {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 30px;
+}
+
+.left-grp,
+.right-grp {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 100%;
+}
+
+.center-grp {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+.view-me {
+	position: absolute;
+	top: 50px;
+	width: 23%;
+	height: 44%;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.view-me:hover {
+	background-color: hsl(178, 100%, 50%,0.5);
+}
+
+.img1 {
+	width: 100%;
+	height: 250px;
+	border-radius:10px;
+}
+
+.img2,
+.img3,
+.img4 {
+	margin-right: 5px;
+}
+
+.img4 {
+	width: 30px;
+	height: 30px;
+	border-radius:50%;
+	margin-left: 4px;
+	border: 2px solid hsl(0, 0%, 100%);
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 0;
+	color: hsl(0, 0%, 100%);
+}
+
+h1:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+span:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+.para1,
+.para3,
+.para4 {
+	color:hsl(215, 51%, 70%);
+}
+
+.para2,
+.para3 {
+	font-size: 17px;
+}
+
+.para2 {
+	color: hsl(178, 100%, 50%);
+}
+
+span {
+	color: hsl(0, 0%, 100%);
+}
+
+.line {
+	width: 100%;
+	height: 2px;
+	margin:14px 0 5px 0;
+	display: flex;
+	align-self: center;
+	background-color: hsl(215, 32%, 27%);
+}
+
+.para1 {
+	width: 100%;
+	font-size: 18px;
+	margin: 16px 0 18px 0;
+}
+
+p {
+	font-size: 18px;
+}
