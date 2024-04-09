@@ -1,4 +1,5 @@
 
+
 body {
 	font-family: "Outfit", sans-serif;
 	display: flex;
@@ -17,20 +18,20 @@ body {
 		padding: 0 26px 0 26px;
 	}
 
+	#norms {
+		width: 100%;
+		justify-content: center;
+	}
+
 	#disappear {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 34%;
-		height: 14.6%;
+		width: 29.5%;
+		top: 860px;
+		height: 12%;
 		position: absolute;
-		top: 797px;
-	}
-
-	#norms {
-		width: 100%;
-		justify-content: center;
 	}
 
 	#first {
@@ -81,9 +82,9 @@ main {
 	align-items: center;
 	justify-content: center;
 	position: absolute;
-	top: 50px;
-	width: 24%;
-	height: 43%;
+	top: 79px;
+	width: 23%;
+	height: 42%;
 	border-radius: 6px;
 }
 
