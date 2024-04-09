@@ -11,12 +11,10 @@ body {
 @media only screen and (max-width: 1020px) and (min-width: 400px) {
 	#main-cont {
 		width: 40%;
-		height: 27%;
 	}
 
 	#wrap {
 		padding: 0 26px 0 26px;
-		height: ;
 	}
 
 	#disappear {
@@ -31,7 +29,6 @@ body {
 	}
 
 	#norms {
-		height: ;
 		width: 100%;
 		justify-content: center;
 	}
@@ -41,12 +38,7 @@ body {
 		width:90%;
 	}
 
-	#center {
-		height: ;
-	}
-
 	#row {
-		height: ;
 		margin-bottom: 6px;
 	}
 
@@ -113,14 +105,12 @@ main {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	border: 2px solid gree;
 }
 
 .center-align {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: ;
 	width: 100%;
 }
 
@@ -129,14 +119,12 @@ main {
 	flex-direction: row;
 	align-items: center;
 	margin: 6px 0 6px 0;
-	height: ;
 	width: 100%;
 	align-items: center;
 }
 
 .normal-align {
 	width: 100%;
-	height: ;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
