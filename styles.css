@@ -10,7 +10,7 @@ body {
 
 @media only screen and (max-width: 1020px) and (min-width: 400px) {
 	#main-cont {
-		width: 40%;
+		width: 36%;
 	}
 
 	#wrap {
@@ -39,11 +39,11 @@ body {
 	}
 
 	#row {
-		margin-bottom: 6px;
+		margin: 6px 0 6px 0;
 	}
 
 	#image {
-		height: 400px;
+		height: 270px;
 		margin-bottom: 10px;
 		margin-top: 20px;
 		border-radius: 10px;
